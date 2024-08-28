@@ -1,0 +1,29 @@
+/* Calendar container */
+.calendar-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Calendar header */
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  /* Calendar days and events */
+  .calendar-day {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #e9ecef;
+    margin: 2px;
+    text-align: center;
+  }
+  
+  .calendar-day.event {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
